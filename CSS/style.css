@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    background-color: rgb(77, 131, 115);
+}
+
+.header {
+    background-color: rgb(1, 26, 21);
+}
+
+.header div {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    background-color: rgb(1, 26, 21);
+
+}
+
+.header div h2 {
+    max-width: 3400px;
+    background-color: rgb(1, 26, 21);
+    color: #ddd;
+}
+
+.header div h5 {
+    max-width: 300px;
+    background-color: rgb(1, 26, 21);
+    color: #ddd;
+}
+
+
+.img1 {
+    border-radius: 40%;
+    height: 300px;
+    padding: 5px;
+    background-color: rgb(1, 26, 21);
+}
+
+.footer {
+    background-color: rgb(77, 131, 115);
+    text-align: center;
+
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position:relative;
+}
+
+
+button {
+    padding: 15px 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(15, 97, 142);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px rgb(1, 0, 0);
+    margin: 10px;
+}
+
+.active, button:hover {
+    background-color: #2196F3;
+}
+
+.dropdown {
+    width: 90%;
+    }
+
+.btn_content {
+    padding: 0 18px;
+    display: none;
+    }
+
+.my_skills h1 {
+    text-align: center;
+}
+
+.skill_container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+      
+.html {
+    width: 60%; 
+    background-color: #04AA6D;
+}
+.css {
+    width: 50%; 
+    background-color: #2196F3;
+}
+.js {
+    width: 50%; 
+    background-color: #f44336;
+}
+.php {
+    width: 60%; 
+    background-color: #a4af40;
+}
+
